@@ -1,1 +1,1 @@
-# ikincielkitab.az_2016
+# Ikincielkitab.az was published on September 2016
