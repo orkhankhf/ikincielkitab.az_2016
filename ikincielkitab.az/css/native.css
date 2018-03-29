@@ -1,0 +1,531 @@
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0;
+}
+input[type=file]{
+	width: 280px;
+    font-size: 12px;
+    border: 1px solid #efefef;
+    padding-left: 6px;
+    padding-top: 9px;
+    color: transparent;
+}
+input[type=file]:active,input[type=file]:hover,input[type=file]:focus{
+	color: transparent;
+}
+
+/*H tags SEO*/
+.book_name_h1{
+	font-size: 19px;
+	color: #809f14;
+}
+.seo_h1 {
+    font-size: 0.5em !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    color: white !important;
+    -moz-user-select: none !important;
+    -webkit-user-select: none !important;
+    -ms-user-select: none !important;
+    user-select: none !important;
+    -o-user-select: none !important;
+}
+.kateqoriya_yazar_item{
+	color: #555555;
+	font-size: 14px;
+	display: block;
+	margin: 0 0 5px;
+	line-height: 22px;
+}
+/*H tags SEO*/
+
+.facebook_pop_up{
+	position: fixed;
+	width: 100%;
+	height:100%;
+	background: black;
+	opacity: 0.5;
+	z-index: 1000;
+}
+.remove_facebook_pop_up{
+	color: white;
+	background: #98b827;
+    width: 300px;
+    height: 30px;
+    position: fixed;
+    z-index: 1005;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 300px;
+    line-height: 30px;
+}
+.remove_facebook_pop_up:hover{
+	cursor: pointer;
+}
+.fb_iframe_widget{
+	z-index: 1001;
+	position: fixed !important;
+	margin-top: 100px;
+}
+
+
+/*book.php share button*/
+.fb-share-button{
+	position: relative !important;
+	margin-top: 22px;
+    margin-left: 20px;
+}
+/*book.php share button*/
+
+
+.header_slogan{
+	width: 400px;
+	float: left;
+	font-size: 15.5px;
+	color: #242424;
+	font-weight: bold;
+	text-align: center;
+}
+.wellcome-msg h1{
+	font-size: 21px;
+}
+.slide-inner .price{
+	border: 0 !important;
+}
+.slider_book_right_desctription,.slider_book_left_desctription{
+	overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 8; /* number of lines to show */
+}
+.price_xs,.kitab_janrlari_menu_md{
+	display: none;
+}
+.bb-custom-wrapper{
+	height: 450px;
+}
+.navbar .btn-navbar{
+	float: left !important;
+}
+.header_logo{
+	width: 120px;
+}
+.axtar_input{
+	color: #323232 !important;
+}
+.axtar_btn{
+	padding: 8px 20px !important;
+}
+.green_slider_right_index .title{
+	overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+.green_slider_right_index .slide2-caption{
+	min-height: 62px;
+}
+.featured-author{
+	min-height: 265px;
+}
+.ayin_yazari_header{
+	text-align: center;
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+    line-height: 24px;
+}
+.heftenin_kitabi_right .teklif_edilen_p{
+	overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 11;
+}
+.weekly_author{
+	padding:92px 0 17px 22px !important;
+}
+.heftenin_kitabi_right{
+	width: 43% !important;
+    padding: 0px !important;
+}
+.ayin_yazicisi_img{
+	width: 150px;
+	height: 150px;
+}
+.my_current_book{
+	margin: 0 !important;
+	width: 98%;
+}
+.footer_headers h4{
+	text-align: center;
+}
+.kitab_sat_main_div{
+	padding: 25px;
+}
+#book_ad_inputPrice,#book_ad_inputPrice2,#book_page_selling{
+	width: 97px;
+}
+.kitab_elave_et_qaydalar{
+	width: 100%;
+	padding: 25px;
+}
+.kitab_elave_et_qaydalar p{
+	width: 95%;
+}
+.elan_gonderildi_content{
+	padding: 20px;
+}
+.elan_gonderildi_content a{
+	float: left;
+	margin-bottom: 20px;
+}
+.my_error_icon{
+	color: #dd514c !important;
+}
+.haqqimizda_p{
+	font-size: 15px;
+	line-height: 20px;
+}
+.books_pagination_grid{
+	margin-left: 10px !important;
+}
+.books_pagination_grid h2 a{
+	font-size: 16px;
+}
+.books_pagination_grid h2{
+	line-height: 16px;
+}
+.my_pagination_ul{
+	width: 100%;
+	text-align: center;
+}
+.bu_kitabi_oxumusam_btn{
+	margin: 0px;
+	margin-top: 20px;
+	border: 0;
+    font-size: 14px;
+    color: #fff;
+    padding: 10px 20px;
+    float: left;
+    background: #98b827;
+    cursor: pointer;
+}
+.bu_kitabi_oxumusam_btn:hover{
+	background: #6a8706;
+	transition: 1s;
+}
+.kitab_info_span{
+	margin-top: 0px !important;
+}
+.kitab_info_span li{
+	font-size: 16px;
+	clear: left;
+	color: #809f14;
+	font-weight: 600;
+	min-height: 27px;
+	width: 100%;
+	word-wrap: break-word;
+}
+.kitab_info_span span{
+	color: #000;
+	font-weight: 400;
+	font-size: 16.5px;
+}
+.kitabin_qiymeti_li{
+	font-size: 20px !important;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.kitabin_qiymeti_li span{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 22px;
+}
+.kateqoriya_imgs{
+	height: 316px !important;
+	width: 216px !important;
+}
+.son_baxilanlar_imgs{
+	width: 130px !important;
+}
+.footer_imgs{
+	width: 60px !important;
+	height: 85px !important;
+}
+.footer_little_books .f-price{
+	display: block;
+	color: darkcyan;
+}
+.footer_little_books .right .title a{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2; /* number of lines to show */
+}
+.footer_little_books .right .by-author{
+    overflow: hidden;
+    font-style: italic;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1; /* number of lines to show */
+}
+/*ANA SEHIFEDEKI ORTA HISSEDEKI UC DENE RANDOM KITAB BOLMESI START*/
+.my_s_procduct{
+	min-height: 222px !important;
+}
+.my_s_product_foto{
+	width: 75px;
+    height: 110px;
+}
+.my_s_product_basliq{
+	overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2; /* number of lines to show */
+}
+.my_s_product_aciqlama{
+	overflow: hidden;
+    font-style: italic;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 7; /* number of lines to show */
+}
+/*ANA SEHIFEDEKI ORTA HISSEDEKI UC DENE RANDOM KITAB BOLMESI FINISH*/
+
+.kitab_sliderleri_ana_sehife img{
+	width: 125px;
+    height: 200px;
+}
+.kitab_sliderleri_ana_sehife h2{
+	line-height: 17px !important;
+}
+.bx-viewport{
+	height: 314px !important;
+}
+.kitab_sliderleri_ana_sehife .title a{
+	overflow: hidden;
+    font-style: italic;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4; /* number of lines to show */
+}
+.son_elave_olunanlar_slider .kitab_sliderleri_ana_sehife .title a{
+	min-height: 40px;
+	overflow: hidden;
+    font-style: italic;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2; /* number of lines to show */
+}
+.my_book_wrapper{
+	height: 230px;
+	display: inline-block !important;
+}
+.slide2-caption{
+	background: #8ca82b;
+}
+@media(max-width: 1100px){
+	.books_pagination_grid{
+		margin-left: 7px !important;
+	}
+	.f2-img-list li .left{
+		margin-right: 0px !important;
+		width: auto !important;
+	}
+	.footer_imgs{
+		width: 70px !important;
+		height: 110px !important;
+	}
+	.footer_little_books .right .title a{
+	    -webkit-line-clamp: 3; /* number of lines to show */
+	}
+}
+@media(max-width: 979px){
+	.footer_little_books .right{
+		width: 100px !important;
+	}
+	.kitab_janrlari_menu_md{
+		display: inline-block;
+	    position: absolute;
+	    font-size: 20px;
+	    font-weight: bold;
+	    line-height: 44px;
+	    left: 60px;
+	}
+	.kateqoriya_imgs{
+		height: 210px !important;
+	}
+	.footer_imgs{
+		width: 90px !important;
+	}
+	.my_s_procduct{
+		min-height: 222px !important;
+	}
+	.my_s_procduct_det{
+		float: right;
+		width: 60%;
+	}
+	.my_s_procduct .s-product-img{
+		width: 36%;
+		float: left;
+	}
+	.my_s_product_foto{
+		width: 75px;
+	    height: 110px;
+	}
+	.footer_little_books .right .title a{
+	    -webkit-line-clamp: 1; /* number of lines to show */
+	}
+	.footer_little_books li{
+		line-height: 17px;
+	}
+}
+@media (min-width: 768px) and (max-width: 979px){
+	.bb-custom-wrapper{
+		width: 100%;
+		height: 485px;
+	}
+	.slider-book-left{
+		position: relative;
+    	right: 240px;
+	}
+	.slider_book_left_desctription{
+		width: 63%;
+	}
+	.slider_book_right_desctription{
+		width: 68%;
+	}
+}
+@media(max-width: 768px){
+	.header_slogan{
+		width: 100%;
+	}
+	.bb-custom-wrapper{
+		height: 475px;
+	}
+	.slider-book-right,.slider-book-left{
+		display: none !important;
+	}
+	.slide-inner .price{
+	    position: absolute;
+	    left: 50%;
+	    font-size: 34px;
+	    top: 146px;
+	}
+	.price_xs{
+		display: block;
+	}
+	.book-detail h2{
+		font-size: 26px;
+	}
+	.books_pagination_grid{
+		margin-left: 0px !important;
+	}
+	.kateqoriya_imgs{
+	    width: 100% !important;
+    	height: auto !important;
+	}
+	.f2-img-list li .left{
+		margin-right: 10px !important;
+	}
+	.footer_imgs {
+	    width: 70px !important;
+	    height: 95px !important;
+	}
+	.footer_little_books .right .title a{
+	    -webkit-line-clamp: 3; /* number of lines to show */
+	}
+	.my_s_procduct{
+		min-height: 222px !important;
+	}
+	.my_s_procduct_det{
+		float: right;
+		width: 60%;
+	}
+	.my_s_procduct .s-product-img{
+		width: 36%;
+		float: left;
+	}
+	.my_s_product_foto{
+		width: 120px;
+    	height: 150px;
+	}
+	.featured-author .left {
+	    width: 100%;
+	}
+	.weekly_author{
+		width: 100%;
+	}
+	.heftenin_kitabi_right{
+		width: 100% !important;
+	}
+	.weekly_author span{
+		position: absolute;
+	    left: 46%;
+	    top: 32px;
+	}
+}
+@media (max-width: 480px){
+	.weekly_author span{
+		position: relative;
+		left: 0;
+		top: 0;
+	}
+	.book-detail h2{
+		font-size: 20px;
+		line-height: 20px;
+	}
+	.bb-custom-wrapper{
+		height: 300px;
+	}
+	.slide-inner .price{
+		left: 9%;
+		font-size: 30px;
+		top: 207px;
+	}
+	.book-detail a{
+		position: relative;
+    	left: 41px;
+	}
+	.slider_book_right_desctription,.slider_book_left_desctription{
+		display: none;
+	}
+	.weekly_author{
+		padding:92px 0 17px 0px !important;
+		width: 100%;
+	}
+	.heftenin_kitabi_right{
+		width: 100% !important;
+	}
+	.my_current_book{
+		width: 100% !important;
+	}
+	.author-img-holder{
+		left: 22%;
+	}
+	#book_ad_inputPrice2{
+		margin-top: 15px;
+	}
+	input[type=file]{
+		width: 203px;
+	}
+	.books_pagination_grid{
+		margin-left: 20px !important;
+	}
+	.footer_imgs {
+	    width: 100px !important;
+	    height: 150px !important;
+	}
+	.footer_little_books .right .title a{
+	    -webkit-line-clamp: 1; /* number of lines to show */
+	}
+}

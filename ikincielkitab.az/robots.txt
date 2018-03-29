@@ -1,0 +1,13 @@
+User-agent: *
+Disallow: /ayin_yazari/
+Disallow: /bakuweb/
+Disallow: /book_images/
+Disallow: /css/
+Disallow: /db/
+Disallow: /font/
+Disallow: /images/
+Disallow: /js/
+Disallow: /less/
+Disallow: /bu_kitabi_oxumusam.php/
+Disallow: /mail.php/
+Disallow: /save_book.php/
